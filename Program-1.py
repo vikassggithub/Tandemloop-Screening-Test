@@ -15,7 +15,7 @@ class Calculator:
             return self.division()
         else:
             raise ValueError(f"Invalid operation: {self.operation}")
-    
+   
     def addition(self):
         return self.a + self.b
     
